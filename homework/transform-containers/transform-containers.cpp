@@ -1,14 +1,6 @@
 #include "transform-containers.hpp"
 #include <algorithm>
 
-template <typename cont>
-void print(cont a) {
-    for (auto el : a) {
-        std::cout << el << ' ';
-    }
-    std::cout << std::endl;
-}
-
 std::map<int, std::string> removeDuplicateAndTranformToMap(std::list<std::string>&
                                                                list,
                                                            std::deque<int>& deque) {
